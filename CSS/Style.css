@@ -1,0 +1,52 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: 0;
+    }
+
+    header{
+        display: flex;
+        background-color: cadetblue;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .loja{
+        border: 1px solid black;
+    }
+
+    a {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #f3f3f3;
+        text-decoration: none;
+        text-decoration: underline none;
+    }
+
+    a:hover {
+        color:black;
+        background-color: white;
+        text-decoration: none;
+        font-size: 16px;
+        transition: all.5s;
+        border: 1px solid #f3f3f3;
+        justify-content: space-between;
+        align-items: center;
+
+
+    }
+
+    li { list-style: none;
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        align-items: center;
+    }
