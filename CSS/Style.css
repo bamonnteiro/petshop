@@ -1,50 +1,20 @@
 *{
+    color: aqua;
     margin: auto;
     padding: 0;
     box-sizing: border-box;
-    color: white;
-    text-align: center; 
-
-
 }
 
-header{
+header`{
     display: flex;
-    justify-content: space-between;
-    text-align: center; 
-    background: #003459; 
-    color: white;
-    margin
+    justify-content: space-between; 
 }
 
-body{
-    background: #007EA7;
-    
+@media (max-width: 780px)
+{ header {
+    background: white;
+    width: 100%
+}   
 }
 
-h2{
-    background: #00A8E8;
-
-}
-.chatbot{
-    background: #00171F;
-    width: 50px;
-    height: 50px;
-    position: fixed;
-    top: ;
-    right: 2em ;
-    bottom: 5%;
-    left: ;
-    cursor: pointer;
-    transition: all 1s;
-    border-radius: 20%;
-    box-shadow: #00171F;    
-
-}
-
-.chatbot: hover{
-    background: black;
-    border-radius: 1px 1px 10px;
-}
-
-/*  */
+/* Media Queries são recursos que podemos utilizar para que os estilos mudem de acordo com o tamanho da tela */
