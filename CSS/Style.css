@@ -1,20 +1,29 @@
 *{
-    color: aqua;
     margin: auto;
     padding: 0;
     box-sizing: border-box;
 }
 
-header`{
+header{
     display: flex;
     justify-content: space-between; 
+    background-color: #8338ec;
 }
 
-@media (max-width: 780px)
-{ header {
-    background: white;
-    width: 100%
-}   
+li{ 
+    list-style:none;
+    border:1px solid #be8c00;
+    background-color: #ffbe0b;
+    float:left; /* DEIXA A LISTA HORIZONTAL */
+    font-size: 21px;
+    text-decoration:none;
+    padding: 5px 50px;
+    display:block;    
 }
 
-/* Media Queries são recursos que podemos utilizar para que os estilos mudem de acordo com o tamanho da tela */
+body{
+    background-color:#ffbe0b;
+}
+
+
+
